@@ -7,7 +7,7 @@ export const updateText = (text) => {
 }
 };
 
-const appStates = (state = {text: "naina"}, action) => {
+const appStates = (state = {text: "Gurpreet"}, action) => {
   switch (action.type) {
     case UPDATE:
       return {
